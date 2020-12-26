@@ -1,0 +1,29 @@
+{
+    "name": "HelloBot_IR",
+    "version": "2.0.0",
+    "description": "Extension for YahBoom HelloBot_IR V2.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "MbitIR.ts",
+        "enums.d.ts",
+        "Mbit_IR.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "_locales/zh-cn/Mbit_IR-strings.json",
+        "_locales/zh-tw/Mbit_IR-strings.json",
+        "shims.d.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
